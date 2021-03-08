@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova";
+}
+
+#bodydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: #d8d8d8;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+
+.container .box::before{
+    content: 'DESIGN';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3em;
+    font-weight: 900;
+    color: black;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .box::after{
+    content: 'CSE';
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 3em;
+    font-weight: 900;
+    color: black;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .box:hover::before,
+.container .box:hover::after
+{
+    opacity: 0.3;
+}
+
+
+.container .box .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    font-size: 30PX;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    opacity: 0;
+    z-index: 10;
+}
+
+.container .box:hover .name{
+    top: 40px;
+    opacity: 1;
+}
+
+.container .box .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, 0, 75px);
+    color: black;
+    background: gray;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.container .box:hover .buy{
+    opacity: 1;
+    bottom:30px;
+}
+
+.container .box .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: grey;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+
+.container .box .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    z-index: 11;
+
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.container .box:hover .product{
+    transform: translate3d(-50%,-50%, 50px) ;
+}
+
+
+
+
+
+
+

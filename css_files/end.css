@@ -1,0 +1,115 @@
+.end{
+    position: relative;
+    height: 300px;
+    top: 240%;
+    /* top: 300%; */
+    background-color: rgb(21, 21, 21);
+    /* background: url('imgs/costellations.jpg'); */
+    /* opacity: 0.5; */
+    z-index: 10;
+    padding: 5px;
+    /* left: -10; */
+}
+
+.end h1{
+    position: absolute;
+    color: white;
+    font-family: 'Spartan';
+    /* top: 10%; */
+
+}
+
+.end .img1 .gmail{
+
+    position:absolute; 
+    width: 4%; 
+    left: 35%; 
+    top:50%;
+    transition: 0.5s;
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.end .img1 .gmailid{
+    font-size: 15px;
+    position: absolute;
+    top: 58%;
+    left: 29%;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.end .img1:hover .gmailid{
+    visibility: visible;
+}
+
+.end .img1:hover .gmail{
+    width: 6%;
+}
+
+.end .img2 .lkin{
+    
+
+    position:absolute; 
+    width: 3%; 
+    left: 53%; 
+    top:50%;
+    transition: 0.5s;
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.end .img2 .link{
+    color: white;
+    font-family: 'Spartan';
+    font-size: 15px;
+    position: absolute;
+    top: 69%;
+    left: 51%;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.end .img2:hover .link{
+    visibility: visible;
+}
+
+.end .img2:hover .lkin{
+    width: 4%;
+}
+
+
+.end .img3 .ig{
+    
+
+    position:absolute; 
+    width: 3%; 
+    left: 70%; 
+    top:50%;
+    transition: 0.5s;
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.end .img3 .iglink{
+    color: white;
+    font-family: 'Spartan';
+    font-size: 15px;
+    position: absolute;
+    top: 69%;
+    left:68%;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.end .img3:hover .iglink{
+    visibility: visible;
+}
+
+.end .img3:hover .ig{
+    width: 4%;
+}
+
+.end .me{
+    position: absolute;
+    top: -4%;
+    left: 80%;
+    width: 14%;
+}
