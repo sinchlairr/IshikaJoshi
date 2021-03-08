@@ -76,6 +76,14 @@
      left: 42%; font-weight: lighter;"  data-speed="4" >ABOUT ME</h1>
      
      
+     
+     <h1 class="container h-50 my-5"  data-aos="fade-in"   data-aos-offset="300"
+   data-aos-easing="ease-in-sine" style="position: absolute;color: white;
+   font-family: 'Spartan'; 
+    font-size: 20px;top:117% !important ;
+     left: 47%; font-weight: lighter; opacity: 0.2; font-style: italic;"  data-speed="4" >Click on the Category</h1>
+     
+     
   <h1 class="container h-50 my-5"  data-aos="fade-in"   data-aos-offset="300"
    data-aos-easing="ease-in-sine" data-speed="4" style="position: absolute;color: white;
    font-family: 'Spartan'; letter-spacing: 10px;
@@ -108,7 +116,7 @@
 
 
 <h1 class="container h-50 my-5"  data-aos="fade-in"   data-aos-offset="300"
-data-aos-easing="ease-in-sine"  data-speed="4" id="me1" onclick="toggle()">
+data-aos-easing="ease-in-sine"  data-speed="4" id="me1" onclick="toggle()" >
   ME</h1>
 
   
@@ -524,6 +532,22 @@ function toggle(){
         me1.classList.toggle('meopa');
 
       }
+      
+      
+      function bright1(){
+
+        var me1= document.getElementById("me1");
+        me1.classList.toggle('meopa');
+
+      }
+      
+      
+      // function dim1(){
+
+      //   var me1= document.getElementById("me1");
+      //   me1.classList.toggle('meclose');
+
+      // }
       
 function untoggle(){
         var popup=document.getElementById("popup");
