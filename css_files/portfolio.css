@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 #p5Div {
 position: absolute;
@@ -349,7 +350,7 @@ h2{
 
 #popup2{
     margin-left: 5px;
-    padding: 30px;
+    padding: 33px;
     font-family: "Spartan";
     font-weight: bold;
     background-color: white;
@@ -431,6 +432,17 @@ font-family: 'Spartan';
 
 }
 
+#skillpopup h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 10px;
+    left: 10px;
+}
+
+
+
 #skillpopup.active{
     visibility:visible;
     opacity: 1;
@@ -475,6 +487,15 @@ font-family: 'Spartan';
     visibility:hidden;
     opacity: 0;
     transition: 0.5s;
+}
+
+#skillpopup2 h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 10px;
+    left: 10px;
 }
 
 #skillcross{
@@ -551,6 +572,15 @@ font-family: 'Spartan';
     transition: 0.5s;
 }
 
+#workpopup h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 8px;
+    left: 10px;
+}
+
 #workpopup2{
     margin-left: 5px;
     padding: 30px;
@@ -583,6 +613,20 @@ font-family: 'Spartan';
     visibility:hidden;
     opacity: 0;
     transition: 0.5s;
+}
+
+#workpopup2 h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 6px;
+    left: 10px;
+}
+
+#workpop2 p{
+    position: absolute;
+    top: 20;
 }
 
 #workcross{
