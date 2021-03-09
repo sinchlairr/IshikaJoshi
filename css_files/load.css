@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.spinner-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    /* background-image: url('files/imgs/aotbg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-wrapper h1{
+    color: #dad7cd;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    font-family: 'Proxima Nova';
+    font-size: 30px;
+    animation: blink 3s linear infinite;
+
+}
+
+@keyframes blink{
+    50%{
+        opacity: 20%;
+    }
+    80%{
+        opacity: 80%;
+    }
+}
+
+.spinner {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.spinner::before,
+.spinner:after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.spinner:before {
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(90deg, #6c584c 0%,#a98467 100% );
+    animation: spin 1s infinite linear;
+}
+.spinner:after {
+    width: 90%;
+    height: 90%;
+    /* background-color: #344e41; */
+    background-image: url('files/imgs/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+/*Simulate page content*/
+.main-content{
+    width: 100%;
+    height: 100%;
+    background: url("https://source.unsplash.com/random/4000x4000") center no-repeat;
+    background-size: cover;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+.main_div{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display:grid;
+    place-items: center;
+
+    z-index: 2000;
+    position: absolute;
+
+
+}
+
+.center_div{
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    z-index: 2000;
+    /* background-color: white; */
+
+}
+
+.rot{
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    top: -30%;
+    left: -40%;
+    border-right: 0.3rem solid #fff;
+    border-radius: 50%;
+    z-index: 2000;
+    animation: rot 2s linear infinite;
+}
+
+
+
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+h1{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: -13%;
+    font-family: 'Spartan';
+    font-size: 0.6;
+    /* transform: translate(-50%, -50%); */
+    
+}

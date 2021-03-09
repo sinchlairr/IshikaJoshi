@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css_files/portfolio.css">
     <link rel="stylesheet" href="css_files/end.css">
     <link rel="stylesheet" href="css_files/customize.css">
+    <link rel="stylesheet" href="css_files/load.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href= 
@@ -23,6 +24,17 @@
     <!-- <script src="projects.js" defer></script> -->
 </head>
 <body>
+
+  <!-- load -->
+
+  <div class="main_div">
+    <div class="center_div">
+        <div class="rot">
+            
+        </div>
+        <h1> LOADING </h1>
+    </div>
+</div>
 
 
 
@@ -402,7 +414,7 @@ data-aos-easing="ease-in-sine"  data-speed="4" onclick="toggle3()" id="work">
 
 <div class="end">
   
-  <h1 style="    left: 5%;
+  <h1 style="   top: 10; left: 5%;
   font-size: 20px;" >I hope I can see your world too</h1>
   <h1 style="  top: 30%;  left: 5%;
   font-size: 70px;">Lets Talk!</h1>
@@ -437,6 +449,21 @@ data-aos-easing="ease-in-sine">
 
 
     <script>
+
+      let spinnerWrapper = document.querySelector('.main_div');
+
+      window.addEventListener('load', function () {
+
+        
+
+
+
+        //   // spinnerWrapper.style.display = 'none';
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+      });
+
+
+
 
       var speedfactor=1.5;
       var bg=0;

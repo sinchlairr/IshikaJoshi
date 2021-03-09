@@ -1,19 +1,22 @@
 .head{
-    position: absolute;
-    align-items: right;
+    position: relative;
+    align-items: left;
     /* font-size: 20px; */
-    left: 85%;
-    top: -13;
+    left: 87%;
+    top: -440;
     z-index: 10;
     color: white;
     /* transition-duration: 0.5; */
     transition-timing-function: ease-in;
+    /* display: flex; */
 }
 
 .head .headtext{
     font-size: 15;
     font-family: 'Spartan';
     opacity: 0.6;
+    top: -80;
+    left: -20;
     /* transition-duration: 0.5; */
     transition-timing-function: ease-in;
 }
@@ -25,7 +28,9 @@
 }
 
 .head ul{
-
+    position: absolute;
+    /* top: 100%; */
+    left: -50;
     text-align: right;
     padding-right: 7%;
     font-family: "Spartan";
