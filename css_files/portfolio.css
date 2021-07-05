@@ -43,7 +43,7 @@ a{
 #threejsDiv{
     background-color: transparent;
     position: relative;
-    top:-97%;
+    top:-97vh;
     z-index: -1;
 }
 
