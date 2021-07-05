@@ -1,0 +1,347 @@
+.container{
+    position: absolute;
+    top: 230%;
+    left: 7%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+
+    /* opacity: 0.2; */
+    transform-style: preserve-3d;
+    z-index: 5;
+}
+
+.container .box{
+    position:absolute;
+    width: 20vw;
+    height: 50vh;
+    margin: 40px;
+    background: white;
+    border-radius: 100px;
+    transform-style: preserve-3d;
+    
+}
+
+
+
+
+.container .box .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    font-size: 30PX;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    opacity: 0;
+    z-index: 10;
+}
+
+.container .box:hover .name{
+    top: 10px;
+    opacity: 1;
+}
+
+.container .box .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, 0, 75px);
+    color: black;
+    background: gray;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.container .box:hover .buy{
+    opacity: 1;
+    bottom:30px;
+}
+.container .box:hover .java,
+.container .box:hover #ps{
+    opacity: 1;
+    visibility: visible;
+    align-items: center;
+    
+}
+
+.container .box .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: grey;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+
+.container .box .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    z-index: 11;
+
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.container .box:hover .product{
+    transform: translate3d(-50%,-50%, 50px) ;
+}
+
+#bodydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    position: absolute;
+    top: 230%;
+    left: 38.5%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+
+    /* opacity: 0.2; */
+    transform-style: preserve-3d;
+    z-index: 5;
+}
+
+.container2 .box2{
+    position:absolute;
+    width: 20vw;
+    height: 50vh;
+    margin: 40px;
+    background: white;
+    border-radius: 100px;
+    transform-style: preserve-3d;
+}
+
+
+
+.container2 .box2 .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    font-size: 30PX;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    opacity: 0;
+    z-index: 10;
+}
+
+.container2 .box2:hover .name{
+    top: 36px;
+    opacity: 1;
+}
+
+.container2 .box2 .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, 0, 75px);
+    color: black;
+    background: gray;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.container2 .box2:hover .buy{
+    opacity: 1;
+    bottom:30px;
+}
+
+.container2 .box2 .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: grey;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+
+.container2 .box2 .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    z-index: 11;
+
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.container2 .box2:hover .product{
+    transform: translate3d(-50%,-50%, 50px) ;
+}
+
+
+.container2 .box2:hover #py2{
+    /* transform: translate3d(-50%,-50%, 50px) ; */
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.container3{
+    position: absolute;
+    top: 230%;
+    left: 69%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+
+    /* opacity: 0.2; */
+    transform-style: preserve-3d;
+    z-index: 5;
+}
+
+.container3 .box3{
+    position:absolute;
+    width: 20vw;
+    height: 50vh;
+    margin: 40px;
+    background: white;
+    border-radius: 100px;
+    transform-style: preserve-3d;
+}
+
+
+
+.container3 .box3 .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    font-size: 30PX;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    opacity: 0;
+    z-index: 10;
+}
+
+.container3 .box3:hover .name{
+    top: 36px;
+    opacity: 1;
+}
+
+.container3 .box3:hover #ai2{
+    visibility: visible;
+    opacity: 1;
+}
+
+.container3 .box3:hover #js2{
+    visibility: visible;
+    opacity: 4;
+}
+
+
+.container3 .box3:hover .ps3{
+    visibility: visible;
+    opacity: 4;
+}
+
+.container3 .box3 .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, 0, 75px);
+    color: black;
+    background: gray;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.container3 .box3:hover .buy{
+    opacity: 1;
+    bottom:30px;
+}
+
+.container3 .box3 .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: grey;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+
+.container3 .box3 .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    z-index: 11;
+
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.container3 .box3:hover .product{
+    transform: translate3d(-50%,-50%, 50px) ;
+}
+
+
+
+.container4{
+    position: absolute;
+    top: 230%;
+    left: 73%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+
+    /* opacity: 0.2; */
+    transform-style: preserve-3d;
+    z-index: 5;
+}
+
