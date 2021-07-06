@@ -1,8 +1,9 @@
 .end{
-    position: relative;
     height: 300px;
-    top: 240%;
-    /* top: 300%; */
+    position: absolute;
+    top: 308vh;
+    /* left: 50vw; */
+    width: 100vw;
     background-color: rgb(21, 21, 21);
     /* background: url('imgs/costellations.jpg'); */
     /* opacity: 0.5; */

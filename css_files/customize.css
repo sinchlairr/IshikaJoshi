@@ -1,9 +1,7 @@
 .head{
-    position: relative;
-    align-items: left;
-    /* font-size: 20px; */
-    left: 87%;
-    top: -440;
+    left: 95vw;
+    position: fixed;
+    top: 5vh;
     z-index: 10;
     color: white;
     /* transition-duration: 0.5; */
@@ -12,7 +10,7 @@
 }
 
 .head .headtext{
-    font-size: 15;
+    font-size: 18;
     font-family: 'Spartan';
     opacity: 0.6;
     top: -80;
