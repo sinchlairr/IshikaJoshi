@@ -146,17 +146,17 @@ h2{
 }
 
 #popup2{
-    margin-left: 5px;
-    padding: 33px;
+    margin-left: 3vw;
+    padding-left: 3vw;
     font-family: "Spartan";
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
     color: aliceblue;
     /* background-color: white; */
     /* background-color: rgb(43, 42, 42); */
     /* border:3px solid black; */
-    width: 700px;
-    height: 400px;
+    width: 40vw;
+    height: 40vh;
     position: absolute;
     top:150vh;
     left: 70vw;
