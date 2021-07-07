@@ -3,8 +3,8 @@
     top: 130vh;
     left: 17vw;
     transform: translate(-50%, -50%);
-    width: 450px;
-    height: 450px;
+    width: 19vw;
+    height: 19vw;
     background: transparent;
     border: 3px solid transparent;
     border-radius: 50%;
@@ -56,11 +56,11 @@ box-shadow: 0 0 10px white;
 
 .ring2{
     position: absolute;
-    top: 124.4vh;
-    left: 14.5vw;
+    top: 124vh;
+    left: 14.2vw;
     transform: translate(-50%, -50%);
-    width: 550px;
-    height: 550px;
+    width: 25vw;
+    height: 25vw;
     background: transparent;
     border: 3px solid transparent;
     border-radius: 50%;
@@ -111,11 +111,11 @@ box-shadow: 0 0 20px #9e9d9f;
 
 .ring3{
     position: absolute;
-    top: 118.5vh;
-    left: 12vw;
+    top: 118.3vh;
+    left: 11.5vw;
     transform: translate(-50%, -50%);
-    width: 650px;
-    height: 650px;
+    width: 31vw;
+    height: 31vw;
     background: transparent;
     border: 3px solid transparent;
     border-radius: 50%;

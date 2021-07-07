@@ -1,7 +1,7 @@
 .end{
-    height: 300px;
+    height: 38vh;
     position: absolute;
-    top: 308vh;
+    top: 300vh;
     /* left: 50vw; */
     width: 100vw;
     background-color: rgb(21, 21, 21);
@@ -32,7 +32,7 @@
 }
 
 .end .img1 .gmailid{
-    font-size: 15px;
+    font-size: 0.8vw;
     position: absolute;
     top: 58%;
     left: 29%;
@@ -62,9 +62,9 @@
 .end .img2 .link{
     color: white;
     font-family: 'Spartan';
-    font-size: 15px;
+    font-size: 0.8vw;
     position: absolute;
-    top: 69%;
+    top: 58%;
     left: 51%;
     visibility: hidden;
     transition: 0.2s;
@@ -93,7 +93,7 @@
 .end .img3 .iglink{
     color: white;
     font-family: 'Spartan';
-    font-size: 15px;
+    font-size: 0.8vw;
     position: absolute;
     top: 69%;
     left:68%;
@@ -113,5 +113,5 @@
     position: absolute;
     top: -4%;
     left: 80%;
-    width: 14%;
+    width: 20vw;
 }

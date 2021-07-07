@@ -9,8 +9,8 @@ html{
 }
 
 .spinner-wrapper{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #151515;
     /* background-image: url('files/imgs/aotbg2.jpg');
     background-repeat: no-repeat;
@@ -27,8 +27,8 @@ html{
 .spinner-wrapper h1{
     color: #dad7cd;
     position: absolute;
-    top: 70%;
-    left: 32%;
+    top: 70vh;
+    left: 50vw;
     font-family: 'Proxima Nova';
     font-size: 30px;
     animation: blink 3s linear infinite;

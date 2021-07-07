@@ -1,7 +1,7 @@
 .container{
     position: absolute;
-    top: 228%;
-    left: 7%;
+    top: 228vh;
+    left: 7vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
