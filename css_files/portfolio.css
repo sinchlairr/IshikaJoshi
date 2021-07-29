@@ -4,6 +4,8 @@ body{
     height: 300vh;
     overflow-x: hidden;
 }
+
+
 #p5Div {
 position: absolute;
 top: 0;
@@ -71,7 +73,7 @@ h2{
     /* margin-top: 2px; */
 
     top: 50vh;
-    left: 42vw;
+    left: 40vw;
 }
 
 .inner{
@@ -86,7 +88,7 @@ h2{
 
 .innerspan{
     animation: animate 10s ease infinite;
-    /* position: relative; */
+    position: relative;
     color: rgb(161, 161, 161);
 }
 
@@ -112,6 +114,7 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 20;
+    
 }
 
 #popup{

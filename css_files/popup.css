@@ -1,0 +1,389 @@
+#cross{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    visibility: hidden;
+    z-index: 20;
+
+}
+
+#cross.active{
+    visibility: visible;
+}
+
+#cross.dactive{
+    visibility: hidden;
+}
+
+.wrapper{
+    width: 400px;
+    height:400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+
+
+#popup{
+    /* background-color: white;
+    border:3px solid black; */
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:160%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    align-items: center;
+    z-index: 20;
+    border-radius: 20%;
+
+
+}
+
+#popup.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#popup.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#popup2{
+    margin-left: 3vw;
+    padding-left: 3vw;
+    font-family: "Spartan";
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1vw;
+    font-weight: bold;
+    color: aliceblue;
+    /* background-color: white; */
+    /* background-color: rgb(43, 42, 42); */
+    /* border:3px solid black; */
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top:150vh;
+    left: 70vw;
+    transform: translate(-50%,-50%);
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    transition: 0.5s;
+    align-items: center;
+    z-index: 20;
+    border-radius: 20%;
+    /* color: white; */
+
+}
+
+#popup2.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#popup2.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#me1{
+    position: absolute;
+    color: white;
+font-family: 'Spartan';
+ letter-spacing: 10px;
+ top:132.1vh !important ;
+  font-size: 0.8vw;
+  left: 25.3vw;
+   font-weight: lighter; 
+   opacity: 1;
+   z-index: 100;
+}
+
+
+
+#me1.meopa{
+    
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#me1.meclose{
+    
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+
+/* #skillpopup{
+    background-color: white;
+    
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:160%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    
+    z-index: 20;
+    border-radius: 20%;
+    padding: 20px;
+    font-family: "Spartan";
+    font-weight: bold;
+
+} */
+
+#skillpopup h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+#skillpopup.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#skillpopup.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#skillpopup2{
+    margin-left: 5px;
+    padding: 20px;
+    font-family: "Spartan";
+    font-weight: bold;
+    background-color: black;
+    /* border:3px solid black; */
+    width: 38vw;
+    height: 55vh;
+    position: absolute;
+    top:150vh;
+    left: 73vw;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    align-items: center;
+    z-index: 20;
+    border-radius: 20%;
+    color: white;
+
+}
+
+#skillpopup2.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#skillpopup2.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#skillpopup2 h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 10px;
+    left: 10px;
+}
+
+#skillcross{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    visibility: hidden;
+    z-index: 20;
+
+}
+
+#skillcross.active{
+    visibility: visible;
+}
+
+#skillcross.dactive{
+    visibility: hidden;
+}
+
+#skills{
+    position: absolute;
+    color: white;
+font-family: 'Spartan';
+ letter-spacing: 10px;
+ top:127.2vh !important ;
+  font-size: 0.8vw;
+  left: 23.35vw;
+   font-weight: lighter; 
+   opacity: 0.4;
+}
+
+#skills.meopa{
+    
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#skills.meclose{
+    
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+/* #workpopup{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:160%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    align-items: center;
+    z-index: 20;
+    border-radius: 20%;
+    padding: 30px;
+    font-family: "Spartan";
+    font-weight: bold;
+
+} */
+
+#workpopup.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#workpopup.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#workpopup h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 8px;
+    left: 10px;
+}
+
+#workpopup2{
+    margin-left: 5px;
+    padding: 30px;
+    font-family: "Spartan";
+    font-weight: bold;
+    background-color: black;
+    /* border:3px solid black; */
+    width: 38vw;
+    height: 55vh;
+    position: absolute;
+    top:150vh;
+    left: 73vw;
+    transform: translate(-50%,-50%);
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    transition: 0.5s;
+    align-items: center;
+    z-index: 20;
+    border-radius: 20%;
+    color: white;
+
+}
+
+#workpopup2.active{
+    visibility:visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#workpopup2.dactive{
+    visibility:hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#workpopup2 h1{
+    font-size: 20px; 
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    top: 6px;
+    left: 10px;
+}
+
+#workpop2 p{
+    position: absolute;
+    top: 20;
+}
+
+#workcross{
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    visibility: hidden;
+    z-index: 20;
+
+}
+
+#workcross.active{
+    visibility: visible;
+}
+
+#workcross.dactive{
+    visibility: hidden;
+}
+
+#work{
+    position: absolute;
+    color: white;
+font-family: 'Spartan';
+ letter-spacing: 10px;
+ top:121.5vh !important ;
+  font-size: 0.8vw;
+  left: 24vw;
+   font-weight: lighter; 
+   opacity: 0.4;
+}
+
+#work.meopa{
+    
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#work.meclose{
+    
+    opacity: 0.4;
+    transition: 0.5s;
+}

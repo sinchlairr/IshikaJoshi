@@ -1,11 +1,11 @@
 .container{
     position: absolute;
     top: 228vh;
-    left: 7vw;
+    left: 1vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 1200px;
+
 
     /* opacity: 0.2; */
     transform-style: preserve-3d;
@@ -112,8 +112,8 @@
 
 .container2{
     position: absolute;
-    top: 228%;
-    left: 38.5%;
+    top: 228vh;
+    left: 25vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -218,8 +218,8 @@
 
 .container3{
     position: absolute;
-    top: 228%;
-    left: 69%;
+    top: 228vh;
+    left: 49vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -333,8 +333,8 @@
 
 .container4{
     position: absolute;
-    top: 230%;
-    left: 73%;
+    top: 228vh;
+    left: 73vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -343,5 +343,105 @@
     /* opacity: 0.2; */
     transform-style: preserve-3d;
     z-index: 5;
+}
+
+
+.container4 .box4{
+    position:absolute;
+    width: 20vw;
+    height: 50vh;
+    margin: 40px;
+    background: white;
+    border-radius: 100px;
+    transform-style: preserve-3d;
+}
+
+
+
+.container4 .box4 .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    font-size: 30PX;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    opacity: 0;
+    z-index: 10;
+}
+
+.container4 .box4:hover .name{
+    top: 36px;
+    opacity: 1;
+}
+
+.container4 .box4:hover #ai2{
+    visibility: visible;
+    opacity: 1;
+}
+
+.container4 .box4:hover #js2{
+    visibility: visible;
+    opacity: 4;
+}
+
+
+.container4 .box4:hover .ps3{
+    visibility: visible;
+    opacity: 4;
+}
+
+.container4 .box4 .buy{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, 0, 75px);
+    color: black;
+    background: gray;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.container4 .box4:hover .buy{
+    opacity: 1;
+    bottom:30px;
+}
+
+.container4 .box4 .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background: grey;
+    transform-style: preserve-3d;
+    z-index: 10;
+    opacity: 1;
+    transform: translate3d(-50%,-50%,50px);
+}
+
+
+.container4 .box4 .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    z-index: 11;
+
+    transform: translate3d(-50%,-50%, 0px) ;
+}
+
+.container4 .box4:hover .product{
+    transform: translate3d(-50%,-50%, 50px) ;
 }
 
