@@ -23,3 +23,29 @@
     opacity: 1;
     transition-timing-function: ease-in;
 }
+
+.head2{
+    left: 89vw;
+    top: -2.7vh;
+    position: fixed;
+    z-index: 10;
+    color: white;
+    /* transition-duration: 0.5; */
+    transition-timing-function: ease-in;
+    /* display: flex; */
+}
+
+.head2 .headtext2{
+    font-size: 1vw;
+    font-family: 'Spartan';
+    opacity: 0.6;
+
+    /* transition-duration: 0.5; */
+    transition-timing-function: ease-in;
+}
+
+.head2:hover .headtext2{
+    
+    opacity: 1;
+    transition-timing-function: ease-in;
+}
