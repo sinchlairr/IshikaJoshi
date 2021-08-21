@@ -49,3 +49,30 @@
     opacity: 1;
     transition-timing-function: ease-in;
 }
+
+
+.abouthead{
+    left: 85vw;
+    top: -2.7vh;
+    position: fixed;
+    z-index: 10;
+    color: white;
+    /* transition-duration: 0.5; */
+    transition-timing-function: ease-in;
+    /* display: flex; */
+}
+
+.abouthead .abouttext{
+    font-size: 1vw;
+    font-family: 'Spartan';
+    opacity: 0.6;
+
+    /* transition-duration: 0.5; */
+    transition-timing-function: ease-in;
+}
+
+.abouthead:hover .abouttext{
+    
+    opacity: 1;
+    transition-timing-function: ease-in;
+}
